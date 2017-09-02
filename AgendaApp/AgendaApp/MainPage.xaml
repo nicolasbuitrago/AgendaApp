@@ -2,10 +2,9 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:AgendaApp"
-             x:Class="AgendaApp.MainPage">
+             x:Class="AgendaApp.MainPage"
+             xmlns:oxy="clr-namespace:OxyPlot.Xamarin.Forms;assembly=OxyPlot.Xamarin.Forms">
 
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
-
+    <oxy:PlotView Model="{Binding Model}" VerticalOptions="Center" HorizontalOptions="Center" />
+    
 </ContentPage>
