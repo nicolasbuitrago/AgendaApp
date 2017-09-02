@@ -13,7 +13,7 @@ namespace AgendaApp
 		{
 			InitializeComponent();
 
-			MainPage = new AgendaApp.MainPage();
+			MainPage = new AgendaApp.ContactosPage();
 		}
 
 		protected override void OnStart()
